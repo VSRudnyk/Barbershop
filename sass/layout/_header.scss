@@ -1,2 +1,14 @@
 .header {
+  width: 1058px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+.contacts-wrap {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
 }

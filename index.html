@@ -19,60 +19,94 @@
   </head>
   <body>
     <!---------------------------- Header ----------------------------->
-    <header class="header">
-      <div class="container navigation">
-        <nav class="nav">
-          <a href="" class="logo link">Logo</a>
-          <ul class="nav__list list">
-            <li class="nav__items">
-              <a href="" class="nav__link link">О нас</a>
-            </li>
-            <li class="nav__items">
-              <a href="" class="nav__link link">Услуги и цены</a>
-            </li>
-            <li class="nav__items">
-              <a href="" class="nav__link link">Мастера</a>
-            </li>
-            <li class="nav__items">
-              <a href="" class="nav__link link">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="contacts-wrap">
-            <a href="" class="site-contacts link" type="tel">+38 044 111 11 11</a>
-        <button type="button" class="button">онлайн-запись</button>
+    <header class="">
+      <div class="container navigate">
+        <div class="header">
+          <nav class="nav">
+            <a href="" class="logo link">
+              <svg width="65" height="55">
+                <use href="./images/symbol-defs.svg#icon-logo"></use>
+              </svg>
+            </a>
+            <ul class="nav__list list">
+              <li class="nav__items">
+                <a href="" class="nav__link link">О нас</a>
+              </li>
+              <li class="nav__items">
+                <a href="" class="nav__link link">Услуги и цены</a>
+              </li>
+              <li class="nav__items">
+                <a href="" class="nav__link link">Мастера</a>
+              </li>
+              <li class="nav__items">
+                <a href="" class="nav__link link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contacts-wrap">
+              <a href="" class="site-contacts link" type="tel">+38 044 111 11 11</a>
+          <button type="button" class="button">онлайн-запись</button>
+          </div>
         </div>
       </div>
     </header>
     <main>
       <!---------------------------- Hero ----------------------------->
-      <section class="section">
-        <div class="sidebar-hero">
-          <div class="sidebar">
-            <ul class="header-sidebar__list list">
-              <li class="header-sidebar__item">
-                <a href="" class="header-sidebar__link link">Instagram</a>
-              </li>
-              <li class="header-sidebar__item">
-                <a href="" class="header-sidebar__link link">Youtube</a>
-              </li>
-            </ul>
+      <div class="container">
+          <div class="hero-wrap">
+            <div class="hero-left">
+              <ul class="hero-left__list list">
+                <li class="hero-left__items">
+                  <a href="" class="hero-left__link link">Instagram</a>
+                </li>
+                <li class="hero-left__items">
+                  <a href="" class="hero-left__link link">Youtube</a>
+                </li>
+              </ul>
+            </div>
+            <div class="hero">
+              <h3 class="pre-text">A hair salon for men in Kyiv</h3>
+              <h1 class="hero__title">BarberShop</h1>
+              <h3 class="after-text">
+                Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно
+                и со вкусом.
+              </h3>
+            </div>
           </div>
-          <div class="hero">
-            <h3 class="pretext">A hair salon for men in Kyiv</h3>
-            <h1 class="hero__title">BarberShop</h1>
-            <h3 class="aftertext">
-              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно
-              и со вкусом.
-            </h3>
+      </div>
+    
+      <!---------------------------- About ----------------------------->
+      <section class="section">
+        <div class="container">
+          <div class="about">
+            <div class="about-thumb">
+              <ul class="about-thumb__list list">
+                <li class="about-thumb__items">
+                  <img src="./images/about/img_1@1x.jpg" alt="Борода">
+                </li>
+                <li class="about-thumb__items">
+                  <img src="./images/about/img_2@1x.jpg" alt="Стрижка"> 
+                </li>
+              </ul>
+            </div>
+            <div class="about-text">
+              <h3 class="pre-text">О НАС</h3>
+              <h2 class="section__title">Лучший Барбершоп твоего города</h2>
+              <h3 class="after-text after-text__color">
+                Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
+              </h3>
+              <p class="about-text-description">Мы команда, которая никогда не останавливается на достигнутом
+                и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+                то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда
+                готовы усовершенствовать каждого, кто к нам приходит!</p>
+              <button type="button" class="button invers">онлайн-запись</button>
+            </div>          
           </div>
         </div>
       </section>
-      <!---------------------------- About ----------------------------->
-      <section class="siction">
-        <div class="container"></div>
-      </section>
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
   </body>
 </html>

@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+}
+.about-thumb {
+  width: 50%;
+}
+
+.about-thumb__list {
+  display: flex;
+}
+
+.about-thumb__items {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.about-thumb__img {
+  width: 270px;
+}
+
+.about-text {
+  width: 50%;
+  margin-left: 64px;
+}
+
+.about-text-description {
+  @include font($fw: 400, $fs: 14px, $lh: 26px, $ls: 0.02em);
+  color: #555555;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 500px;
+}

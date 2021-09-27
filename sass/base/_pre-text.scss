@@ -1,0 +1,17 @@
+.pre-text {
+  @include font($fs: 11px, $lh: 15px);
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 63px;
+    height: 1px;
+    background-color: rgba(157, 164, 189, 0.6);
+    margin-right: 21px;
+  }
+}

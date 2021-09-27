@@ -1,0 +1,70 @@
+.hero {
+  width: 1077px;
+  padding: 272px 0 206px 96px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(../../images/hero/hero-overlay.png),
+    url(../../images/hero/hero@1x.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../../images/hero/hero-overlay.png),
+      url(../../images/hero/hero@2x.jpg);
+  }
+}
+
+.hero__title {
+  @include font($fw: 700, $fs: 72px, $lh: 85px, $ls: 0.05em);
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.hero-wrap {
+  display: flex;
+  position: relative;
+}
+
+.hero-left {
+  width: 148px;
+  background-color: #ccc;
+  position: relative;
+}
+
+.hero-left__list {
+  position: absolute;
+  bottom: 152px;
+  left: -45px;
+  display: flex;
+  align-items: center;
+  transform: rotate(-90deg);
+
+  &::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+    margin-right: 21px;
+  }
+}
+
+.hero-left__items {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+
+.hero-left__link {
+  @include font($fs: 11px, $lh: 15px, $ls: 0.2em);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #303030;
+
+  &:hover,
+  &:focus {
+    color: #ff6c00;
+  }
+}
