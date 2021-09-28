@@ -183,14 +183,14 @@ ul {
   display: block;
   width: 1077px;
   padding: 272px 0 206px 96px;
-  background-image: url(../images/hero/hero-overlay.png), url(../../images/hero/hero@1x.jpg);
+  background-image: url(./images/hero/hero-overlay.png), url(./images/hero/hero@1x.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../images/hero/hero-overlay.png), url(../images/hero/hero@2x.jpg);
+    background-image: url(./images/hero/hero-overlay.png), url(./images/hero/hero@2x.jpg);
   }
 }
 
@@ -328,7 +328,7 @@ ul {
   height: 718px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../../images/price/price-transparent.png), url(../../images/price/price-bg.jpg);
+  background-image: url(./images/price/price-transparent.png), url(./images/price/price-bg.jpg);
 }
 
 .price {
@@ -348,7 +348,7 @@ ul {
 .price-left__list {
   width: 50%;
   padding: 30px 40px;
-  background-image: url(../../images/price/price-left-bg.png);
+  background-image: url(./images/price/price-left-bg.png);
 }
 
 .price-left__items {
@@ -363,7 +363,7 @@ ul {
 .price-right__list {
   width: 50%;
   padding: 30px 40px;
-  background-image: url(../images/price/price-right-bg.png);
+  background-image: url(./images/price/price-right-bg.png);
 }
 
 .price-right__items {
@@ -521,7 +521,7 @@ ul {
 }
 
 .contacts {
-  background-image: url(../images/contacts/contacts-bg.jpg);
+  background-image: url(./images/contacts/contacts-bg.jpg);
 }
 
 .online-appointment {
