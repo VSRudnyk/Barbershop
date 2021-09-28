@@ -5,5 +5,11 @@
 
 .section__title {
   @include font($fw: 700, $fs: 42px, $lh: 49px, $ls: 0.05em);
+  font-family: "Raleway", sans-serif;
   color: #303030;
+  max-width: 500px;
+}
+
+.section__title--color {
+  color: #ffffff;
 }

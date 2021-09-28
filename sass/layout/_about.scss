@@ -1,9 +1,6 @@
 .about {
   display: flex;
 }
-.about-thumb {
-  width: 50%;
-}
 
 .about-thumb__list {
   display: flex;
@@ -15,13 +12,9 @@
   }
 }
 
-.about-thumb__img {
-  width: 270px;
-}
-
 .about-text {
   width: 50%;
-  margin-left: 64px;
+  padding-left: 64px;
 }
 
 .about-text-description {

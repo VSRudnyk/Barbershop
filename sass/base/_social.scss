@@ -1,0 +1,31 @@
+.social {
+  margin-top: 30px;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__items {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+.social__link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  fill: #303030;
+
+  &:hover,
+  &:focus {
+    fill: #ff6c00;
+  }
+}

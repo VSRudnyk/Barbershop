@@ -1,8 +1,8 @@
 .hero {
+  display: block;
   width: 1077px;
   padding: 272px 0 206px 96px;
-  margin-right: auto;
-  margin-left: auto;
+
   background-image: url(../../images/hero/hero-overlay.png),
     url(../../images/hero/hero@1x.jpg);
   background-size: cover;
@@ -19,6 +19,7 @@
 
 .hero__title {
   @include font($fw: 700, $fs: 72px, $lh: 85px, $ls: 0.05em);
+  font-family: "Raleway", sans-serif;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -36,11 +37,12 @@
 
 .hero-left__list {
   position: absolute;
-  bottom: 152px;
-  left: -45px;
+  bottom: 40px;
+  left: 85px;
   display: flex;
   align-items: center;
   transform: rotate(-90deg);
+  transform-origin: left top;
 
   &::before {
     content: "";

@@ -15,3 +15,11 @@
     margin-right: 21px;
   }
 }
+
+.pre-text--color {
+  color: #303030;
+  &::before {
+    content: "";
+    background-color: #303030;
+  }
+}

@@ -1,0 +1,44 @@
+.contacts {
+  background-image: url(../../images/contacts/contacts-bg.jpg);
+}
+
+.online-appointment {
+  width: 50%;
+}
+
+.contacts-form {
+  margin-top: 44px;
+}
+
+.contacts-form__input {
+  @include font($fs: 11px, $lh: 15px);
+  padding: 0;
+  text-transform: uppercase;
+  background-color: unset;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+  color: #ffffff;
+}
+
+.contacts-form__input--text {
+  margin-right: 27px;
+  width: 270px;
+  height: 24px;
+}
+
+.contacts-form__input--tel {
+  width: 260px;
+  height: 24px;
+}
+
+.textarea {
+  resize: none;
+  width: 560px;
+  height: 76px;
+  margin-top: 44px;
+}
+
+.site-contacts {
+  width: 50%;
+}

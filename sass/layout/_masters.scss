@@ -1,0 +1,30 @@
+.masters {
+  background-color: #f7f7f7;
+}
+
+.masters-cards {
+  margin-top: 44px;
+}
+
+.masters-cards__list {
+  display: flex;
+  margin: -15px;
+}
+
+.masters-cards__items {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  margin: 15px;
+  text-align: center;
+}
+
+.masters-cards__name {
+  @include font($fs: 18px, $lh: 25px, $ls: 0.02em);
+  color: #303030;
+  margin-top: 30px;
+}
+
+.masters-cards__position {
+  @include font($fs: 14px, $lh: 19px, $ls: 0.02em);
+  color: #ff6c00;
+  margin-top: 8px;
+}

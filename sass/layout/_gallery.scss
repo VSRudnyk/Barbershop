@@ -1,0 +1,13 @@
+.gallery {
+  margin-top: 44px;
+}
+
+.gallery__list {
+  display: flex;
+  margin: -15px;
+}
+
+.gallery__items {
+  flex-basis: calc((100% - 4 * 30px) / 4);
+  margin: 15px;
+}
