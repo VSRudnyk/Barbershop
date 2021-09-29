@@ -92,7 +92,7 @@
             <div class="about-text">
               <h3 class="pre-text pre-text--color">О НАС</h3>
               <h2 class="section__title">Лучший Барбершоп твоего города</h2>
-              <h3 class="after-text after-text__color">
+              <h3 class="after-text after-text--color">
                 Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
               </h3>
               <p class="about-text-description">Мы команда, которая никогда не останавливается на достигнутом и жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
@@ -178,7 +178,7 @@
             <div class="reason-text">
               <h3 class="pre-text pre-text--color">старая традиционная школа</h3>
               <h2 class="section__title">Почему приходят именно к нам?</h2>
-              <h3 class="after-text after-text__color">
+              <h3 class="after-text after-text--color">
                 О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.
               </h3>
             </div>
@@ -344,21 +344,61 @@
       <section class="section contacts">
         <div class="container">
           <h2 class="section__title section__title--color">Онлайн-запись</h2>
-          <div class="online-appointment">
-            <form class="contacts-form">
-              <label>
-                <input class="contacts-form__input contacts-form__input--text" type="text" placeholder="Имя*">
-              </label>
-              <label>
-                <input class="contacts-form__input contacts-form__input--tel" type="tel" placeholder="Телефон*">
-              </label>
-              <label>
-                <textarea class="contacts-form__input textarea" placeholder="сообщение"></textarea>
-              </label>
-            </form>
-          </div>
-          <div class="site-contacts">
-
+          <div class="contacts-wrap">
+            <div class="online-appointment">
+              <form class="contacts-form">
+                <label>
+                  <input class="contacts-form__input contacts-form__input--text" type="text" placeholder="Имя*">
+                </label>
+                <label>
+                  <input class="contacts-form__input contacts-form__input--tel" type="tel" placeholder="Телефон*">
+                </label>
+                <label>
+                  <textarea class="contacts-form__input textarea" placeholder="сообщение"></textarea>
+                </label>
+              </form>
+            </div>
+            <div class="site-address">
+              <h2 class="section__title section__title--color">Контакты</h2>
+              <ul class="site-address__list list">
+                <li class="site-address__items">
+                  <div class="address-block">
+                    <span class="address-block__icon">
+                      <svg class="site-address__logo" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-map-pin"></use>
+                      </svg>
+                    </span>
+                    <span class="address-block__link">
+                        <a href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%BE%D0%BB%D0%BE%D1%88%D0%BA%D0%BE%D0%B2%D0%B0,+7,+%D0%A1%D0%BE%D1%84%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%91%D0%BE%D1%80%D1%89%D0%B0%D0%B3%D1%96%D0%B2%D0%BA%D0%B0,+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB.,+08131/@50.4043702,30.3777962,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cbc58525aeeb:0x9b29e69f13437f9!8m2!3d50.4043702!4d30.3799849"
+                          class="site-address__link link" target="_blank">ул. Васильковая, 7А Киев, 08132</a>
+                    </span>
+                  </div>
+                </li>
+                <li class="site-address__items">
+                  <div class="address-block">
+                    <span class="address-block__icon">
+                      <svg class="site-address__logo" width="24" height="24">
+                        <use href="./images/symbol-defs.svg#icon-phone"></use>
+                      </svg>
+                    </span>
+                    <span class="address-block__link">
+                      <a href="tel:+380441111111" class="site-address__link link">
+                        +38 044 111 11 11</a>
+                    </span>
+                </li>
+                <li class="site-address__items site-address__items--indent">
+                  <div class="address-block">
+                    <span class="address-block__icon">
+                      <svg class="site-address__logo" width="24" height="24"></svg>
+                    </span>
+                    <span class="address-block__link">
+                      <a href="mailto:barbershop@email.com" class="site-address__link link">barbershop@email.com</a>
+                  </span>
+                </li>
+              </ul>
+              <h3 class="pre-text pre-text--color-white">время работы</h3>
+              <h3 class="after-text after-text--color-white">Ежедневно с 9:00 до 22:00</h3>
+            </div>
           </div>
         </div>
       </section>
